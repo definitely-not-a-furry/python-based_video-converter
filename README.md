@@ -3,18 +3,19 @@
 Description
 ---
 
-A converter made using python based on ffmpeg to convert any video file to .mp4 (mpeg)
+A video converter made using python based on ffmpeg to convert any video file to .mp4 (mpeg)
 
 Requirements
 ---
 
-You need to have [FFmpeg](https://ffmpeg.org/) installed properly:
+You will need to have [FFmpeg](https://ffmpeg.org/) installed properly to use this program.
+You can "install" FFmpeg on Windows by following these steps:
 
   1. Download FFmpeg from [this repository](https://github.com/BtbN/FFmpeg-Builds/releases)
-  2. Extract the zip archive to C:\
+  2. Extract the zip archive to `C:\` or wherever you find best
   3. Press win+s and search "Edit the system environment variables" then press enter
-  4. Click "Environment Variables...", then click on the row named "Path" and press alt+E
-  5. Press alt+N and type in "C:\ffmpeg\bin\" end press enter
+  4. Click `Environment Variables...`, then click on the row named "Path" and press alt+E
+  5. Press alt+N and type in `C:\ffmpeg\bin\` (or the path you extracted the archive + `/ffmpeg/bin/`) end press enter
   6. Lastly, close all windows (by clicking Ok)
 
 Operation
