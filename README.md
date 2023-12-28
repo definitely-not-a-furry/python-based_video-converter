@@ -3,7 +3,7 @@
 Description
 ---
 
-A video converter made using python based on ffmpeg to convert any video file to .mp4 (mpeg)
+A video converter made using python based on ffmpeg to convert video files (supported by FFmpeg) to mp4 format.
 
 Requirements
 ---
@@ -12,22 +12,10 @@ You will need to have [FFmpeg](https://ffmpeg.org/) installed properly to use th
 You can "install" FFmpeg on Windows by following these steps:
 
   1. Download FFmpeg from [this repository](https://github.com/BtbN/FFmpeg-Builds/releases)
-  2. Extract the zip archive to `C:\` or wherever you find best
-  3. Press win+s and search "Edit the system environment variables" then press enter
-  4. Click `Environment Variables...`, then click on the row named "Path" and press alt+E
-  5. Press alt+N and type in `C:\ffmpeg\bin\` (or the path you extracted the archive + `/ffmpeg/bin/`) end press enter
-  6. Lastly, close all windows (by clicking Ok)
-
-Operation
----
-
-1. Extract the release zip file and execute "mp4conv.exe"
-2. Click "Select" and select the files you want to convert
-3. Click "Done"
-4. Wait until the terminal window closes (it may take some time)
-5. Your .mp4 files should be in the same directory as the selected files and are called "[original file name (including extention)].mp4"
+  2. Extract the archive to somewhere permanent on your pc.
+  3. Add a PATH entry for the `bin` folder of the extracted files. (you can do this by changing the `PATH` environment variable)
 
 Future plans
 ---
 
-My future plans are to add support for a wider range of video formats and to make the UI more user-friendly. I'm considering intergrating ffmpeg rather than installing it being a pre-requisite.
+My future plans are to add support for a wider range of video formats and to make the UI more user-friendly. I am considering intergrating FFmpeg rather than it being a pre-requisite.
